@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Carousel.js - A lightweight jQuery carousel plugin</title>
+    <meta name="description" content="Carousel.js - A lightweight jQuery carousel plugin.">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>Carousel.js</h1>
+      </header>
+      <section id="carousel">
+        <ul>
+          <li>
+            <img src="img/one.jpg" alt="Photo by Toby Harriman" />
+          </li>
+          <li>
+            <img src="img/two.jpg" alt="Photo by Toby Harriman" />
+          </li>
+          <li>
+            <img src="img/three.jpg" alt="Photo by Toby Harriman" />
+          </li>
+        </ul>
+        <nav>
+          <a class="next" href="#" title="Next Slide"></a> 
+          <a class="prev" href="#" title="Previous Slide"></a>      
+        </nav>    
+      </section>
+      <footer>
+        <small>
+          Copyright &copy; 2013 Benjamin Zalasky. Released under the <a href="http://opensource.org/licenses/MIT" title="MIT License">MIT license</a>. Photography by <a href="http://photography.tobyharriman.com/" title="Toby Harriman">Toby Harriman</a>. 
+        <small>   
+      </footer>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.animate-enhanced"></script>
+    <script src="js/carousel.js"></script>
+    <script>
+      var carousel = new $.carousel('#carousel ul', {height: 438, width: 700});
+    </script>
+  </body>
+</html>

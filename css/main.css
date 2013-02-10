@@ -1,0 +1,75 @@
+/*
+ * HTML5 Boilerplate
+ */
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {color: #222;}
+
+body {font-size: 1em;line-height: 1.4;}
+
+a:active, a:focus {outline:0;outline-style:none;outline-width:0;}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {vertical-align: middle;}
+
+/* ==========================================================================
+   Layout styles
+   ========================================================================== */
+
+  .wrap {width:700px;margin:0 auto;}
+  footer {margin:0.67em 0;}
+
+/* ==========================================================================
+   Carousel.js styles
+   ========================================================================== */
+
+  #carousel {position:relative;}
+  #carousel ul {position:relative;height:438px;width:700px;list-style:none;margin:0;padding:0;}
+  #carousel li {position:absolute;top:0;left:0;}
+  #carousel li img {width:100%;}
+
+  /*
+   * Fancy CSS arrows via css-tricks.com
+   */
+
+  #carousel nav a {position:absolute;height:0;width:0;top:50%;margin-top:-22px;border-top:22px solid transparent;border-bottom:22px solid transparent;}
+  #carousel nav a.next {right:5px;border-left:22px solid rgba(255,255,255,0.4);}
+  #carousel nav a.prev {left:5px;border-right:22px solid rgba(255,255,255,0.4);}
+
+  @media screen and (max-width: 700px) {
+    .wrap {width:640px;}
+
+    #carousel {height:400px;width:640px;}
+    #carousel ul {height:400px;width:640px;}
+    #carousel li {height:400px;width:640px;}
+  }
+
+  @media screen and (max-width: 640px) {
+    .wrap {width:480px;}
+
+    #carousel {height:300px;width:480px;}
+    #carousel ul {height:300px;width:480px;}
+    #carousel li {height:300px;width:480px;}
+  }
+
+  @media screen and (max-width: 480px) {
+    .wrap {width:320px;}
+
+    #carousel {height:200px;width:320px;}
+    #carousel ul {height:200px;width:320px;}
+    #carousel li {height:200px;width:320px;}
+  }
+
+/* ==========================================================================
+   Clearfix
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
