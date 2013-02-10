@@ -42,7 +42,12 @@
     <script src="js/jquery.animate-enhanced"></script>
     <script src="js/carousel.js"></script>
     <script>
-      var carousel = new $.carousel('#carousel ul', {height: 438, width: 700});
+      var carousel = new $.carousel('#carousel ul', {
+        height: 438, 
+        width: 700, 
+        nextCallback: function () { console.log('Showing the next slide.')}, 
+        prevCallback: function () { console.log('Showing the previous slide.')}
+      });
     </script>
   </body>
 </html>

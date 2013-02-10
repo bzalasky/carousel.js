@@ -6,9 +6,9 @@
    Base styles
    ========================================================================== */
 
-html {color: #222;}
+html {color:#222;}
 
-body {font-size: 1em;line-height: 1.4;}
+body {font-size:1em;line-height:1.4; background:url(../img/debut-light.png) repeat #efefef;}
 
 a:active, a:focus {outline:0;outline-style:none;outline-width:0;}
 
@@ -39,8 +39,12 @@ img {vertical-align: middle;}
    */
 
   #carousel nav a {position:absolute;height:0;width:0;top:50%;margin-top:-22px;border-top:22px solid transparent;border-bottom:22px solid transparent;}
-  #carousel nav a.next {right:5px;border-left:22px solid rgba(255,255,255,0.4);}
-  #carousel nav a.prev {left:5px;border-right:22px solid rgba(255,255,255,0.4);}
+  #carousel nav a.next {right:5px;border-left-color:#efefef;border-left:22px solid rgba(255,255,255,0.4);}
+  #carousel nav a.prev {left:5px;border-right-color:#efefef;border-right:22px solid rgba(255,255,255,0.4);}
+
+/* ==========================================================================
+   Responsive styles
+   ========================================================================== */
 
   @media screen and (max-width: 700px) {
     .wrap {width:640px;}
@@ -65,11 +69,3 @@ img {vertical-align: middle;}
     #carousel ul {height:200px;width:320px;}
     #carousel li {height:200px;width:320px;}
   }
-
-/* ==========================================================================
-   Clearfix
-   ========================================================================== */
-
-.clearfix:before,
-.clearfix:after {content: " ";display: table;}
-.clearfix:after {clear: both;}
