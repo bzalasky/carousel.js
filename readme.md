@@ -9,9 +9,9 @@ Carousel.js
 *Initialization*
 
 After you've included jQuery (and any other external script files), you can
-initialize your carousel following the form 
+initialize your carousel following the form: 
     
-    new $.carousel([el], [options]):
+    // new $.carousel([el], [options])
 
     var carousel = new $.carousel('#carousel ul', {height: 438, width: 700});
 
