@@ -3,8 +3,8 @@ Carousel.js
 
 *Dependencies*
 
-  - jquery.js (required)
-  - jquery.animate-enhanced.js (optional)
+  - [jquery.js](http://jquery.com/) (required)
+  - [jquery.animate-enhanced.js](https://github.com/benbarnett/jQuery-Animate-Enhanced) (optional)
 
 *Initialization*
 
