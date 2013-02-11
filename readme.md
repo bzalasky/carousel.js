@@ -17,7 +17,7 @@ initialize your carousel following the form:
 
 *Optional Parameters*
 
-El (element) is required, however you can also pass in a hash of optional parameters to
+El (element) is required, however, you can also pass in a hash of optional parameters to
 override the defaults.
 
   - itemSel (item selector)
